@@ -4,9 +4,10 @@ $ref=@$_GET['q'];
 $email = $_POST['uname'];
 $password = $_POST['password'];
 
+
 $email = stripslashes($email);
 $email = addslashes($email);
-$password = stripslashes($password); 
+$password = stripslashes($password);
 $password = addslashes($password);
 $result = mysqli_query($con,"SELECT email FROM admin WHERE email = '$email' and password = '$password'") or die('Error');
 $count=mysqli_num_rows($result);
