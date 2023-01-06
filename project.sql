@@ -42,6 +42,7 @@ INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
 
 -- --------------------------------------------------------
 
+
 --
 -- Table structure for table `answer`
 --
@@ -329,7 +330,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VALUES
-('Aqsa', 'F', 'THE MAK', 'aqsa420@gmail.com', 03045678645, 'e10adc3949ba59abbe56e057f20f883e'),
+('Aqsa', 'F', 'THE MAK', 'aqsa420@gmail.com', 03040351172, 'e10adc3949ba59abbe56e057f20f883e'),
 ('Azeem', 'M', 'FROS', 'azeem67@gmail.com', 03056786543, 'e10adc3949ba59abbe56e057f20f883e'),
 ('Komal', 'F', 'FROS', 'komal2022@gmail.com', 03024568765, 'e10adc3949ba59abbe56e057f20f883e'),
 ('Asim', 'M', 'THE MAK', 'asim2@gmail.com', 03045678463, 'e10adc3949ba59abbe56e057f20f883e'),
